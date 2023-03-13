@@ -9,7 +9,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 1.5;
-    width: 500px;
+    width: 100vh;
     height: 700px;
     padding: auto;
     margin: auto;
@@ -18,13 +18,30 @@ body {
 
 }
 
-.content {
+.block__content {
+
+    display: flex;
+    position: fixed;
+    width: 100vh;
+}
+
+.content__one {
     position: relative;
     width: 98%;
-
     max-width: 490px;
     background-color: #fff;
     padding: 5px;
     margin: 5px;
     border-radius: 5px;
 }
+
+.content__two {
+    position: relative;
+    width: 98%;
+    max-width: 490px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
